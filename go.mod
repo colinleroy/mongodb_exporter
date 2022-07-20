@@ -9,7 +9,7 @@ replace github.com/prometheus/client_golang v1.12.2 => github.com/Percona-Lab/cl
 
 require (
 	github.com/AlekSi/pointer v1.1.0
-	github.com/alecthomas/kong v0.5.0
+	github.com/alecthomas/kong v0.6.1
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/percona/exporter_shared v0.7.4-0.20211108113423-8555cdbac68b
 	github.com/percona/percona-toolkit v0.0.0-20211210121818-b2860eee3152
@@ -20,7 +20,7 @@ require (
 	github.com/prometheus/exporter-toolkit v0.7.1
 	github.com/shirou/gopsutil v3.21.8+incompatible // indirect
 	github.com/sirupsen/logrus v1.8.1
-	github.com/stretchr/testify v1.7.1
+	github.com/stretchr/testify v1.7.2
 	go.mongodb.org/mongo-driver v1.9.1
 )
 
@@ -60,5 +60,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
